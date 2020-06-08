@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"Tree";
-    self.cells = @[@"Thread"];
+    self.cells = @[@"Thread",@"property",@"Network"];
     
     UITableView *tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.dataSource = self;

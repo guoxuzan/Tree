@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CC67A492465044300F601F9 /* propertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC67A482465044300F601F9 /* propertyVC.m */; };
+		2CC67A4C2465073800F601F9 /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC67A4B2465073800F601F9 /* NetworkVC.m */; };
+		2CC67A7224650DC600F601F9 /* VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC67A7124650DC600F601F9 /* VC.m */; };
 		2CCE021E2463FB20000B4D58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE021D2463FB20000B4D58 /* AppDelegate.m */; };
 		2CCE02242463FB20000B4D58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE02232463FB20000B4D58 /* ViewController.m */; };
 		2CCE02292463FB21000B4D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE02282463FB21000B4D58 /* Assets.xcassets */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CC67A472465044300F601F9 /* propertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = propertyVC.h; sourceTree = "<group>"; };
+		2CC67A482465044300F601F9 /* propertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = propertyVC.m; sourceTree = "<group>"; };
+		2CC67A4A2465073800F601F9 /* NetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkVC.h; sourceTree = "<group>"; };
+		2CC67A4B2465073800F601F9 /* NetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkVC.m; sourceTree = "<group>"; };
+		2CC67A7024650DC600F601F9 /* VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC.h; sourceTree = "<group>"; };
+		2CC67A7124650DC600F601F9 /* VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC.m; sourceTree = "<group>"; };
 		2CCE02192463FB20000B4D58 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCE021C2463FB20000B4D58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CCE021D2463FB20000B4D58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +72,8 @@
 				2CCE021D2463FB20000B4D58 /* AppDelegate.m */,
 				2CCE02222463FB20000B4D58 /* ViewController.h */,
 				2CCE02232463FB20000B4D58 /* ViewController.m */,
+				2CC67A7024650DC600F601F9 /* VC.h */,
+				2CC67A7124650DC600F601F9 /* VC.m */,
 				2CCE02382464071E000B4D58 /* VC */,
 				2CCE02282463FB21000B4D58 /* Assets.xcassets */,
 				2CCE022A2463FB21000B4D58 /* LaunchScreen.storyboard */,
@@ -77,6 +88,10 @@
 			children = (
 				2CCE02352463FDA6000B4D58 /* ThreadVC.h */,
 				2CCE02362463FDA6000B4D58 /* ThreadVC.m */,
+				2CC67A472465044300F601F9 /* propertyVC.h */,
+				2CC67A482465044300F601F9 /* propertyVC.m */,
+				2CC67A4A2465073800F601F9 /* NetworkVC.h */,
+				2CC67A4B2465073800F601F9 /* NetworkVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -150,10 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC67A492465044300F601F9 /* propertyVC.m in Sources */,
+				2CC67A4C2465073800F601F9 /* NetworkVC.m in Sources */,
 				2CCE02242463FB20000B4D58 /* ViewController.m in Sources */,
 				2CCE021E2463FB20000B4D58 /* AppDelegate.m in Sources */,
 				2CCE022F2463FB21000B4D58 /* main.m in Sources */,
 				2CCE02372463FDA6000B4D58 /* ThreadVC.m in Sources */,
+				2CC67A7224650DC600F601F9 /* VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
